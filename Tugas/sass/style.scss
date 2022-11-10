@@ -420,6 +420,13 @@ body {
     background: lighten($primary-color-light, 10%) 
   }
 
+
+  @media screen and (max-width: 576px) {
+    .header {
+        overflow-x: hidden;
+    }
+  }
+
 @media screen and (min-width: 768px) {
 
     * {
