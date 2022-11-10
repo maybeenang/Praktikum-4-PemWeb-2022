@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum 3</title>
+    <link rel="stylesheet" href="sass/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <h1>eng.</h1>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav--list">
+          <li class="header__nav--item"><a href="#">Home</a></li>
+          <li class="header__nav--item"><a href="#about">About</a></li>
+          <li class="header__nav--item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__humberger">
+        <div class="header__humberger--line"></div>
+        <div class="header__humberger--line"></div>
+        <div class="header__humberger--line"></div>
+      </div>
+    </header>
+    <main class="main" id="home">
+      <div class="jumbotron">
+        <div class="jumbotron__img">
+          <img src="img/profile.jpeg" alt="hero" />
+        </div>
+        <div class="jumbotron__content">
+          <h1 class="jumbotron__content--title">Hello, I'm Elang</h1>
+          <p class="jumbotron__content--desc">
+            Elang is not name a bird, but a name of a person. Yes, that's
+            <span>me</span>.
+          </p>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <h1>About Me</h1>
+        <div class="about__desc">
+          <p>
+            My name is Muhammad Elang Permadani, my friend usually call me
+            Elang. I'am 19 years old and form Indonesia. I'am a student at
+            <span>Sumatera Institute of Technology</span> majoring in
+            Informatics Engineering. I'am a person who likes to learn new
+            things, especially in the field of technology.
+          </p>
+        </div>
+        <h2>Education</h2>
+        <div class="about__timeline">
+          <div class="container">
+            <div class="content">
+              <h3>2008 - 2014</h3>
+              <p>SDN 1 Ketapang</p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="content">
+              <h3>2014 - 2017</h3>
+              <p>SMPN 1 Ketapang</p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="content">
+              <h3>2017 - 2020</h3>
+              <p>SMKN 2 Lamongan</p>
+            </div>
+          </div>
+          <div class="container">
+            <div class="content">
+              <h3>2020 - Present</h3>
+              <p>Sumatera Institute of Technology</p>
+            </div>
+          </div>
+        </div>
+        <h2>Projects</h2>
+        <div class="about__projects">
+          <div class="content">
+            <div class="number">
+              <p>#001</p>
+            </div>
+            <div class="desc">
+              <h3>Lost Princess</h3>
+              <p>I made this game using PyGame</p>
+            </div>
+            <div class="thumbnail">
+              <img src="img/p1.png" alt="project1" />
+            </div>
+          </div>
+          <div class="content">
+            <div class="number">
+              <p>#002</p>
+            </div>
+            <div class="desc">
+              <h3>Sudoku Solver</h3>
+              <p>Program that can solve sudoku</p>
+            </div>
+            <div class="thumbnail">
+              <img src="img/p2.png" alt="project1" />
+            </div>
+          </div>
+          <div class="content">
+            <div class="number">
+              <p>#003</p>
+            </div>
+            <div class="desc">
+              <h3>Todo List</h3>
+              <p>Just a simple todo list</p>
+            </div>
+            <div class="thumbnail">
+              <img src="img/p3.png" alt="project1" />
+            </div>
+          </div>
+          <div class="content">
+            <a href="https://github.com/maybeenang" target="_blank">more...</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="contact">
+      <h1 id="contact">Contact</h1>
+      <div class="contact__container">
+        <div class="contact__input">
+          <label for="name">Name</label>
+          <input type="text" placeholder="Name" id="name" />
+        </div>
+        <div class="contact__input">
+          <label for="email">Email</label>
+          <input type="email" placeholder="Email" id="email" />
+        </div>
+        <div class="contact__input">
+          <label for="message">Massage</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <div class="contact__input">
+          <button>Send</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <p>© 2021 Muhammad Elang Permadani | 120140194</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
