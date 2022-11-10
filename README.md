@@ -1,6 +1,6 @@
 # Praktikum-4-PemWeb-2022
 
-<a src="https://maybeenang.github.io/Praktikum-4-PemWeb-2022/">Click here to visit</a>
+<a href="https://maybeenang.github.io/Praktikum-4-PemWeb-2022/">Click here to visit</a>
 
 ## Home Page
 
