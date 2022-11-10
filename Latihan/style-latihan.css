@@ -13,11 +13,7 @@
     background-color: #386380;
 }
 
-h1 {
-    color: aliceblue;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
+
 
 .container {
     display: flex;
@@ -59,5 +55,40 @@ input {
 
 .hasil-container {
     display: none;
+    text-align: center;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    margin-bottom: .5rem;
+}
+
+.back {
+    flex: 1;
+    color: #386380;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: aliceblue;
+    padding: .5rem;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.back:hover {
+    background-color: #386380;
+    color: aliceblue;
+    border: aliceblue 1px solid;
+}
+
+h1 {
+    flex: 10;
+    color: aliceblue;
+    /* background-color: bisque; */
+    font-size: 2.5rem;
     text-align: center;
 }
